@@ -10,8 +10,12 @@ body {
     color: #{{ site.data.template.color.secondary-dark }};
 }
 
+.text-justify {
+  text-align: justify;
+}
+
 .text-muted {
-    color: #{{ site.data.template.color.muted }};
+  color: #{{ site.data.template.color.muted }};
 }
 
 .text-primary {
@@ -322,6 +326,15 @@ header .intro-text .intro-heading {
         font-weight: 700;
         line-height: 75px;
     }
+
+    header .intro-subheading {
+      margin-bottom: 75px;
+      text-transform: none;
+      font-family: {{ site.data.template.font.secondary }};
+      font-size: 20px;
+      font-style: italic;
+      font-weight: 100;
+  }
 }
 
 section {
