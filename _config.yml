@@ -1,11 +1,10 @@
 url: https://zapaz.github.io/kredeum
-baseurl: /agency-jekyll-theme/
+baseurl: /kredeum/
 
 # Site settings
 title: Kredeum - Architectures blockchain
 email: alain.papazoglou@kredeum.com
-description: "Conception et mise en oeuvre d’architectures blockchain pour l’entreprise
-"
+description: "Conception et mise en oeuvre d’architectures blockchain pour l’entreprise"
 
 # Team names, titles and social links
 people:
