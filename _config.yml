@@ -1,6 +1,6 @@
 # theme: https://github.com/y7kim/agency-jekyll-theme
 url: https://zapaz.github.io/kredeum
-baseurl: /kredeum/
+baseurl: /kredeum
 
 # Site settings
 title: Kredeum
@@ -18,6 +18,9 @@ people:
 
     - title: linkedin
       url: #yoann-lesouef-08212b2
+
+    - title: email
+      url: #mailto:yoann.lesouef@kredeum.com
 
 - name: Alexandre Rouillet
   pic: 2
