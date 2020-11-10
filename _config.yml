@@ -4,7 +4,7 @@ baseurl: /kredeum/
 # Site settings
 title:Kredeum
 email: alain.papazoglou@kredeum.com
-description: "Kredeum - Architectes blockchain"
+description: Kredeum - Architectes blockchain
 
 # Team names, titles and social links
 people:
@@ -14,9 +14,7 @@ people:
   social:
     - title: twitter
       url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
+    - title: linkedin
       url: #
 
 - name: Alexandre Rouillet
@@ -26,8 +24,6 @@ people:
     - title: twitter
       url: #
     - title: facebook
-      url: #
-    - title: linkedin
       url: #
 
 - name: Alain Papazoglou
