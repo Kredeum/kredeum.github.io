@@ -179,9 +179,16 @@ fieldset[disabled] .btn-xl.active {
     background-color: #222;
 }
 
+@font-face {
+  font-family: "Fun Games";
+  src: url("/fonts/fun-games.ttf") format("truetype"),
+         url("/fonts/fun-games.otf") format("opentype");
+}
+
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: "Fun Games","Helvetica Neue",Helvetica,Arial,cursive;
     color: #{{ site.data.template.color.primary }};
+    letter-spacing: 5px;
 }
 
 .navbar-default .navbar-brand:hover,
