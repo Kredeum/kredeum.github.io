@@ -1,0 +1,38 @@
+title: "L'équipe Kredeum"
+text: "Une équipe d'entrepreneurs expérimentés"
+subtext: "Kredeum est spécialisé dans la technologie Ethereum : blockchain et smart contract (technologie majoritairement adoptée par les nouvelles blockchains) et des technologies associées au web décentralisé."
+section: team
+
+
+# Team names, titles and social links
+people:
+- name: Yoann Lesouef
+  image: assets/img/team/yoann.jpg
+  role: Co-fondateur
+  social:
+    - icon: fab fa-twitter
+      url: #YoannLesouef
+    - icon: fab fa-linkedin-in
+      url: #yoann-lesouef-08212b2
+    - icon: fas fa-at
+      url: #mailto:yoann.lesouef@kredeum.com
+
+- name: Alexandre Rouillet
+  image: assets/img/team/alex.jpg
+  role: Co-fondateur
+  social:
+    - icon: fab fa-twitter
+      url: #AlexRouillet
+    - icon: fab fa-linkedin-in
+      url: #alexandre-rouillet-ab0a992a
+
+- name: Alain Papazoglou
+  image: assets/img/team/alain.jpg
+  role: Co-fondateur
+  social:
+    - icon: fab fa-twitter
+      url: #papaz
+    - icon: fab fa-linkedin-in
+      url: #alain
+    - icon: fas fa-at
+      url: #mailto:alain.papazoglou@kredeum.com

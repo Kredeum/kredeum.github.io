@@ -20,10 +20,6 @@ title      : Kredeum
 email      : contact@kredeum.com 
 description: "Conception et mise en oeuvre d’architectures blockchain pour l’entreprise"
 author     : Alain Papazoglou
-years      : "2018 - 2020"
-logo:
-  path: assets/img/kredeum.png
-  height: 60
   
 analytics:
   google: UA-179076153-1

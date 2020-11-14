@@ -7,6 +7,9 @@
 header-image: "../img/header.jpg"
 contact-image: "../img/contact.png"
 
+logo:
+  path: assets/img/logos/kredeum.png
+  height: 60
 
 #Font Awesome icon for portfolio grid when an item is hovered over
 #portfolio-icon: fas fa-expand-arrows-alt fa-3x #default: fas fa-plus fa-3x
