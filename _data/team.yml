@@ -11,28 +11,28 @@ people:
   role: Co-fondateur
   social:
     - icon: fab fa-twitter
-      url: #YoannLesouef
+      url: https://twitter.com/YoannLesouef
     - icon: fab fa-linkedin-in
-      url: #yoann-lesouef-08212b2
+      url: https://www.linkedin.com/in/yoann-lesouef-08212b2
     - icon: fas fa-at
-      url: #mailto:yoann.lesouef@kredeum.com
+      url: mailto:yoann.lesouef@kredeum.com
 
 - name: Alexandre Rouillet
   image: assets/img/team/alex.jpg
   role: Co-fondateur
   social:
     - icon: fab fa-twitter
-      url: #AlexRouillet
+      url: https://twitter.com/AlexRouillet
     - icon: fab fa-linkedin-in
-      url: #alexandre-rouillet-ab0a992a
+      url: https://www.linkedin.com/in/alexandre-rouillet-ab0a992a
 
 - name: Alain Papazoglou
   image: assets/img/team/alain.jpg
   role: Co-fondateur
   social:
     - icon: fab fa-twitter
-      url: #papaz
+      url: https://twitter.com/papaz
     - icon: fab fa-linkedin-in
-      url: #alain
+      url: https://www.linkedin.com/in/alain
     - icon: fas fa-at
-      url: #mailto:alain.papazoglou@kredeum.com
+      url: mailto:alain.papazoglou@kredeum.com
