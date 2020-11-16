@@ -1,5 +1,5 @@
 ---
 layout: home
-lang: en
+lang: fr
 path: /
 ---

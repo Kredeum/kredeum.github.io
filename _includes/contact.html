@@ -1,14 +1,14 @@
-{% if site.data.contact %}
+{% if site.data[page.lang].contact %}
 <!-- Contact -->
-  <section class="page-section" id="{{ site.data.contact.section | default: "contact" }}">
+  <section class="page-section" id="{{ site.data[page.lang].contact.section | default: "contact" }}">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">{{ site.data.contact.title | markdownify | default: Contact Us }}</h2>
-          <h3 class="section-subheading text-muted">{{ site.data.contact.text | markdownify | default: "" }}</h3>
+          <h2 class="section-heading text-uppercase">{{ site.data[page.lang].contact.title | markdownify | default: Contact Us }}</h2>
+          <h3 class="section-subheading text-muted">{{ site.data[page.lang].contact.text | markdownify | default: "" }}</h3>
         </div>
       </div>
-      {% if site.data.contact.email %}
+      {% if site.data[page.lang].contact.email %}
       <div class="row">
         <div class="col-lg-12">
           <form id="contactForm" action="https://formspree.io/{% if site.formspree_form_path %}{{ site.formspree_form_path }}{% else %}{{ site.email }}{% endif %}" novalidate="novalidate" method="POST">
