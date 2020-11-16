@@ -2,7 +2,7 @@
 remote_theme: raviriley/agency-jekyll-theme
 
 url    : "https://www.kredeum.com" 
-baseurl: "/"
+baseurl: ""
 
 title      : Kredeum
 email      : contact@kredeum.com 

@@ -1,9 +1,9 @@
 <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style="background-color:#212529">
     <div class="container">
-	  <a class="navbar-brand js-scroll-trigger" href="{{ site.baseurl }}{{ page.lang }}">
+	  <a class="navbar-brand js-scroll-trigger" href="{{ site.baseurl }}/{{ page.lang }}">
           {%- if site.data.style.logo -%}
-            <img height="{{ site.data.style.logo.height | default: 52 }}" src="{{ site.baseurl }}{{ site.data.style.logo.path }}"/>
+            <img height="{{ site.data.style.logo.height | default: 52 }}" src="{{ site.baseurl }}/{{ site.data.style.logo.path }}"/>
           {%- else -%}
             {{ site.title }}
           {%- endif -%}
@@ -19,7 +19,7 @@
 		  {%- if link.url -%}
 		    <a class="nav-link js-scroll-trigger" href="{{ link.url }}">{{ link.title }}</a>
 		  {%- else if link.section -%}
-		    <a class="nav-link js-scroll-trigger" href="/{{page.lang}}{{ site.baseurl }}#{{ link.section }}">{{ link.title }}</a>
+		    <a class="nav-link js-scroll-trigger" href="{{ site.baseurl }}/{{page.lang}}/#{{ link.section }}">{{ link.title }}</a>
 		  {%- else -%}
 		    <a class="nav-link js-scroll-trigger" href="#">{{ link.title }}</a>
 		  {%- endif -%}
@@ -28,9 +28,9 @@
         </li>
         <li class="nav-item">
            {%- if page.lang == 'en' -%}
-		       <a class="nav-link js-scroll-trigger" href="/fr{{page.path}}">FR</a>
+		       <a class="nav-link js-scroll-trigger" href="{{ site.baseurl }}/fr{{page.path}}">FR</a>
            {%- else -%}
-           <a class="nav-link js-scroll-trigger" href="/en{{page.path}}">EN</a>
+           <a class="nav-link js-scroll-trigger" href="{{ site.baseurl }}/en{{page.path}}">EN</a>
            {%- endif -%}
             </li>
         </ul>
