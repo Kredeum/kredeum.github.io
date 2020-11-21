@@ -1,6 +1,3 @@
-
-remote_theme: raviriley/agency-jekyll-theme
-
 url    : "https://www.kredeum.com" 
 baseurl: ""
 
@@ -16,6 +13,3 @@ collections:
   portfolio:
 
 markdown: kramdown
-
-plugins:
-  - jekyll-remote-theme
