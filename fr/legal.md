@@ -2,7 +2,7 @@
 layout: page
 title: Politique de Confidentialité
 lang: fr
-path: legal/
+path: legal
 background: grey
 ---
 
