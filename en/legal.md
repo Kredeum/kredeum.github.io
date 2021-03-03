@@ -2,7 +2,7 @@
 layout: page
 title: Privacy Policy
 lang: en
-path: legal
+path: /legal
 background: grey
 ---
 

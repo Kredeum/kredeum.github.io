@@ -2,7 +2,7 @@
 layout: page
 title: Kredeum Labs
 lang: fr
-path: labs
+path: /labs.html
 background: grey
 ---
 
